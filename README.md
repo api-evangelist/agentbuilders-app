@@ -1,4 +1,4 @@
-# agentbuilders-app
+# AgentBuilders
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-agentbuilders-app is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://agentbuilders.app/
+AgentBuilders provides a deployment platform for AI agents, enabling developers to deploy full-stack applications with database, authentication, storage, and access to 25 AI models via a single API call. The service automates infrastructure provisioning, offering features such as vector search, scheduled jobs, custom domains, email, and monitoring, targeting AI coding agents like Claude, Cursor, and Copilot.
+
+**Areas:** AI · Platform · Deployment · Agents · Automation · Company
+
+## AgentBuilders on APIs.io
+
+Everything profiled for AgentBuilders is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/agentbuilders-app/](https://apis.io/providers/agentbuilders-app/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [AgentBuilders API](https://apis.io/apis/agentbuilders-app/agentbuilders-api/) — AgentBuilders API provides endpoints for deploying AI agents, managing apps, storage, authentication, and usage metrics.
+- [AgentBuilders API](https://apis.io/apis/agentbuilders-app/agentbuilders-app-api/) — AgentBuilders API as documented publicly: 57 operations. Contract generated from the documentation by API Evangelist (2026-11-01); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [GetV1AppsMyAppWebsiteImportResponse](https://apis.io/schemas/agentbuilders-app/agentbuilders-app-get-v1-apps-my-app-website-import-response/)
+- [GetV1AppsNameWebsiteImportJobidResponse](https://apis.io/schemas/agentbuilders-app/agentbuilders-app-get-v1-apps-name-website-import-jobid-response/)
+- [PatchV1AiSettingsRequest](https://apis.io/schemas/agentbuilders-app/agentbuilders-app-patch-v1-ai-settings-request/)
+- [PostApiMediaIdTransformRequest](https://apis.io/schemas/agentbuilders-app/agentbuilders-app-post-api-media-id-transform-request/)
+- [PostV1DeployResponse](https://apis.io/schemas/agentbuilders-app/agentbuilders-app-post-v1-deploy-response/)
+- [PostV1MediaUploadUrlRequest](https://apis.io/schemas/agentbuilders-app/agentbuilders-app-post-v1-media-upload-url-request/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Agentbuilders App Context](https://apis.io/jsonld/agentbuilders-app/agentbuilders-app-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [AgentBuilders API Rules](https://apis.io/rules/agentbuilders-app/agentbuilders-app-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Agentbuilders App Authentication](https://apis.io/security/agentbuilders-app/agentbuilders-app-authentication/)
+- [Agentbuilders App Domain Security](https://apis.io/security/agentbuilders-app/agentbuilders-app-domain-security/)
+- [Agentbuilders App Vulnerability Disclosure](https://apis.io/security/agentbuilders-app/agentbuilders-app-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Agentbuilders App Plans Pricing](https://apis.io/plans/agentbuilders-app/agentbuilders-app-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Agentbuilders App Rate Limits](https://apis.io/rate-limits/agentbuilders-app/agentbuilders-app-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://agentbuilders.app/)
+- [Documentation](https://docs.agentbuilders.app/)
+- [Getting started](https://docs.agentbuilders.app/docs/getting-started)
+- [API reference](https://docs.agentbuilders.app/docs/api)
+- [Pricing](https://agentbuilders.app/pricing)
+- [Support](https://agentbuilders.app/support)
+- [Security](https://agentbuilders.app/security/disclosure)
+- [Terms of service](https://agentbuilders.app/terms)
+- [Privacy policy](https://agentbuilders.app/privacy)
+
+## API Evangelist rating
+
+**Kin Score 57.5** — strong · rubric 0.25.0 · scored 2026-11-01
+
+| Facet | Score |
+|---|---|
+| Discoverability | 56.7 |
+| Contract quality | 45.6 |
+| Contract governance | 79.1 |
+| Operational transparency | 38.9 |
+| Developer ergonomics | 59.5 |
+| Access clarity | 60.0 |
+
+**Agent readiness 29.4** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/agentbuilders-app/](https://apis.io/providers/agentbuilders-app/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AgentBuilders: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/agentbuilders-app/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
