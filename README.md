@@ -66,7 +66,7 @@
 
 AgentBuilders provides a deployment platform for AI agents, enabling developers to deploy full-stack applications with database, authentication, storage, and access to 25 AI models via a single API call. The service automates infrastructure provisioning, offering features such as vector search, scheduled jobs, custom domains, email, and monitoring, targeting AI coding agents like Claude, Cursor, and Copilot.
 
-**Areas:** AI · Platform · Deployment · Agents · Automation · Company
+**Areas:** Artificial Intelligence · Platform · Deployment · Agents · Automation · Company
 
 ## AgentBuilders on APIs.io
 
@@ -80,6 +80,12 @@ Everything profiled for AgentBuilders is published on APIs.io rather than in thi
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [agentbuilders-app-mcp.yml](https://apis.io/servers/agentbuilders-app/agentbuilders-app-mcp-yml/)
 
 #### JSON Schema (6)
 
@@ -108,21 +114,21 @@ Spectral rulesets for the provider's contracts.
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [Agentbuilders App Authentication](https://apis.io/security/agentbuilders-app/agentbuilders-app-authentication/)
-- [Agentbuilders App Domain Security](https://apis.io/security/agentbuilders-app/agentbuilders-app-domain-security/)
-- [Agentbuilders App Vulnerability Disclosure](https://apis.io/security/agentbuilders-app/agentbuilders-app-vulnerability-disclosure/)
+- [AgentBuilders Authentication](https://apis.io/security/agentbuilders-app/agentbuilders-app-authentication/)
+- [AgentBuilders Domain Security](https://apis.io/security/agentbuilders-app/agentbuilders-app-domain-security/)
+- [AgentBuilders Vulnerability Disclosure](https://apis.io/security/agentbuilders-app/agentbuilders-app-vulnerability-disclosure/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [Agentbuilders App Plans Pricing](https://apis.io/plans/agentbuilders-app/agentbuilders-app-plans-pricing/)
+- [AgentBuilders Plans Pricing](https://apis.io/plans/agentbuilders-app/agentbuilders-app-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [Agentbuilders App Rate Limits](https://apis.io/rate-limits/agentbuilders-app/agentbuilders-app-rate-limits/)
+- [AgentBuilders Rate Limits](https://apis.io/rate-limits/agentbuilders-app/agentbuilders-app-rate-limits/)
 
 ## Where to find this API
 
@@ -140,18 +146,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 57.5** — strong · rubric 0.25.0 · scored 2026-11-01
+**Kin Score 49.5** — developing · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 56.7 |
-| Contract quality | 45.6 |
-| Contract governance | 79.1 |
-| Operational transparency | 38.9 |
+| Discoverability | 66.7 |
+| Contract quality | 26.3 |
+| Contract governance | 35.6 |
+| Operational transparency | 38.1 |
 | Developer ergonomics | 59.5 |
-| Access clarity | 60.0 |
+| Access clarity | 66.0 |
 
-**Agent readiness 29.4** — agent-ready
+**Agent readiness 30.6** — agent-ready
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -167,7 +173,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
-| Consent Identity | — |
+| Consent Identity | signal |
 | Agent Card | — |
 | Dry Run Mode | — |
 | Delegated Identity | served (partial credit) |
@@ -176,6 +182,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Commerce | — |
 | Pagination Ratio | na |
 | Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | yes |
 
 **Regulatory alignment 28.2** — Horizontal (data, software, accessibility, platform)
 
